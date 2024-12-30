@@ -16,7 +16,7 @@ const images = [
 ];
 
 const markUp = images.map(element =>
-  `<li class="liClas"> <img src="${element.url}" alt="${element.alt}" style = "width:100px; height:100px; " /> </li>`)
+  `<li class="liClas"> <img src="${element.url}" alt="${element.alt}" style = "width:360px; height:300px; " /> </li>`)
 
   .join("")
 

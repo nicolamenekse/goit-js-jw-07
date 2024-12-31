@@ -14,7 +14,7 @@ loginForm.addEventListener("submit", (event) => {
         password: passwordvalue
     }
     console.log(formData);
-    formData.reset()
+    loginForm.reset()
 
 })
 
